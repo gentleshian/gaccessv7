@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import company_logo_source from "/public/company-logo.png";
-import app_logo_source from "/public/GAccess-colored.png";
-import google_logo_source from "/public/img_landingpage/brands-and-logotypes.png";
+import company_logo_source from "./company-logo.png";
+import app_logo_source from "./GAccess-colored.png";
+import google_logo_source from "./brands-and-logotypes.png";
 import { useRouter } from 'next/router'
 
 export default function LandingPage() {
