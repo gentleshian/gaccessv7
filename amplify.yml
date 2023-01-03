@@ -5,6 +5,7 @@ frontend:
       commands:
         - rm -rf node_modules,
         - npm install --force,
+        - npm install rollup-plugin-babel @babel/preset-env,
         - npm install @emotion/react --force,
         - npm install @emotion/styled --force,
         - npm install @lexical/react --force,
