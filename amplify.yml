@@ -3,12 +3,35 @@ frontend:
   phases:
     preBuild:
       commands:
+        - npm install @emotion/react@11.10.5 --force,
+        - npm install @emotion/styled@11.10.5 --force,
+        - npm install @lexical/react@0.6.3 --force,
+        - npm install @mui/icons-material@5.10.9 --force,
+        - npm install @mui/material@5.10.12 --force,
+        - npm install @mui/styled-engine-sc@5.10.6 --force,
+        - npm install @mui/styles@5.11.2 --force,
+        - npm install @mui/x-date-pickers@5.0.12 --force,
+        - npm install axios@1.2.1 --force,
+        - npm install date-fns@2.29.3 --force,
+        - npm install dayjs@1.11.7 --force,
+        - npm install draft-js@0.11.7 --force,
+        - npm install eslint@8.26.0 --force,
+        - npm install eslint-config-next@13.0.2 --force,
+        - npm install lexical@0.7.5 --force,
+        - npm install mui-rte@2.0.1 --force,
+        - npm install next@13.0.2 --force,
+        - npm install react@18.2.0 --force,
+        - npm install react-dom@18.2.0 --force,
+        - npm install react-draft-wysiwyg@1.15.0 --force,
+        - npm install react-dropzone@14.2.3 --force,
+        - npm install react-mui-dropzone@4.0.6 --force,
+        - npm install styled-components@5.3.6 --force,
         - npm install --force
     build:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: build
+    baseDirectory: .next
     files:
       - '**/*'
   cache:
