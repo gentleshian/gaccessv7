@@ -3,32 +3,6 @@ frontend:
   phases:
     preBuild:
       commands:
-        - rm -rf node_modules,
-        - npm install @rollup/plugin-terser --force,
-        - npm install @jridgewell/sourcemap-codec,
-        - npm install @emotion/react --force,
-        - npm install @emotion/styled --force,
-        - npm install @lexical/react --force,
-        - npm install @mui/icons-material --force,
-        - npm install @mui/material --force,
-        - npm install @mui/styled-engine-sc --force,
-        - npm install @mui/styles --force,
-        - npm install @mui/x-date-pickers --force,
-        - npm install axios --force,
-        - npm install date-fns --force,
-        - npm install dayjs --force,
-        - npm install draft-js --force,
-        - npm install eslint --force,
-        - npm install eslint-config-next --force,
-        - npm install lexical --force,
-        - npm install mui-rte --force,
-        - npm install next --force,
-        - npm install react --force,
-        - npm install react-dom --force,
-        - npm install react-draft-wysiwyg --force,
-        - npm install react-dropzone --force,
-        - npm install react-mui-dropzone --force,
-        - npm install styled-components --force,
         - npm install --force
 
     build:
