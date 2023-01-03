@@ -3,6 +3,8 @@ frontend:
   phases:
     preBuild:
       commands:
+        - rm -rf node_modules,
+        - npm install --force,
         - npm install @emotion/react --force,
         - npm install @emotion/styled --force,
         - npm install @lexical/react --force,
@@ -26,7 +28,7 @@ frontend:
         - npm install react-dropzone --force,
         - npm install react-mui-dropzone --force,
         - npm install styled-components --force,
-        - npm install --force
+
     build:
       commands:
         - npm run build
